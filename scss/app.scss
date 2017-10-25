@@ -1,0 +1,41 @@
+@import "../framework/scss/variables";
+@import "../framework/scss/list";
+@import "../framework/scss/grid";
+@import "../framework/scss/typo";
+
+.navbar {
+  @include navbar(flex, row, grey, flex-start, 0, 20vw, 1, 1);
+}
+
+.ligne {
+  @include grid-row(flex, row);
+}
+
+.colH1 {
+  @include grid-col(7, 12);
+}
+
+.colH4 {
+  @include grid-col(5, 12);
+}
+
+.col-moitmoit {
+  @include grid-col(5, 12);
+}
+
+.col-3 {
+  @include grid-col(3, 12);
+}
+
+.col-4 {
+  @include grid-col(4, 12);
+}
+
+.search-bar {
+  float: right;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

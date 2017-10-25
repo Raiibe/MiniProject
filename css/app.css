@@ -1,0 +1,336 @@
+/*
+* Buttons :
+* '-s' stands for small button, '-m' for medium and '-l' for large
+*/
+/*******************************************************************************/
+/*       			  	   	  <ul> & <li> elements                             */
+/*******************************************************************************/
+/*******************************************************************************/
+/*                                Flex grid                                    */
+/*******************************************************************************/
+.flex-1 {
+  box-sizing: border-box;
+  flex-basis: 7.3333333333%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.flex-2 {
+  box-sizing: border-box;
+  flex-basis: 15.6666666667%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.flex-3 {
+  box-sizing: border-box;
+  flex-basis: 24%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.flex-4 {
+  box-sizing: border-box;
+  flex-basis: 32.3333333333%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.flex-5 {
+  box-sizing: border-box;
+  flex-basis: 40.6666666667%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.flex-6 {
+  box-sizing: border-box;
+  flex-basis: 49%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.flex-7 {
+  box-sizing: border-box;
+  flex-basis: 57.3333333333%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.flex-8 {
+  box-sizing: border-box;
+  flex-basis: 65.6666666667%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.flex-9 {
+  box-sizing: border-box;
+  flex-basis: 74%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.flex-10 {
+  box-sizing: border-box;
+  flex-basis: 82.3333333333%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.flex-11 {
+  box-sizing: border-box;
+  flex-basis: 90.6666666667%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+/*******************************************************************************/
+/*                               Typography                                    */
+/*******************************************************************************/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10vw;
+  padding-right: 10vw; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 5px; }
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold; }
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold; }
+
+h3 {
+  font-size: 2rem; }
+
+h4 {
+  font-size: 1.8rem; }
+
+h5 {
+  font-size: 1.5rem; }
+
+h6 {
+  font-size: 1.2rem; }
+
+small, .subtitle {
+  color: grey;
+  font-size: 0.7em; }
+
+p {
+  margin: 0; }
+
+mark {
+  background-color: yellow; }
+
+del {
+  text-decoration: line-through red; }
+
+ins {
+  color: red;
+  text-decoration: underline; }
+
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
+.l-align {
+  text-align: left; }
+
+.r-align {
+  text-align: right; }
+
+.c-align {
+  text-align: center; }
+
+.j-align {
+  text-align: justify; }
+
+.inMaj {
+  text-transform: uppercase; }
+
+.inMin {
+  text-transform: lowercase; }
+
+ul > li {
+  margin-left: 50px;
+  list-style-type: disc; }
+
+.style-square > li {
+  list-style-type: square; }
+
+.style-none > li {
+  list-style-type: none; }
+
+blockquote {
+  padding: 0 10rem;
+  font-style: oblique; }
+
+code {
+  display: inline-block;
+  padding: 0.5rem;
+  font-family: Courier, monospace;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: lightgrey;
+  white-space: pre;
+  box-shadow: -2px 2px 5px #888888; }
+
+pre {
+  display: inline-block;
+  padding-right: 2rem;
+  padding-top: 20px;
+  font-family: Consolas, monospace;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+  border-left: 1rem solid #f25e23;
+  border-right: 1rem solid #f25e23;
+  color: #F5F5F5;
+  background-color: #272822;
+  box-shadow: -2px 2px 5px black; }
+
+kbd {
+  font-family: monospace; }
+
+.table {
+  border: 1px solid black;
+  margin: 1rem 2rem; }
+
+.table th {
+  background-color: lightgrey;
+  border-bottom: 1px solid black; }
+
+.table th, .table td {
+  padding: 5px; }
+
+.alt_lines tr:nth-child(2n+1) {
+  background-color: lightblue; }
+
+.alt_lines tr:nth-child(2n+2) {
+  background-color: #E8E8E8; }
+
+.borders th, .borders td {
+  border: 1px solid black; }
+
+.hoverlines tr:hover {
+  opacity: 0.5; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  justify-content: flex-start;
+  margin: 0;
+  flex-basis: 20vw;
+  flex-grow: 1;
+  flex-shrink: 1; }
+  .navbar > li {
+    list-style: none;
+    margin: 0; }
+  .navbar > li > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    margin: 0;
+    border-left: #222222 2px solid; }
+  .navbar > li > a:hover {
+    background-color: #212428; }
+  .navbar > li > .disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    color: grey; }
+  .navbar > li > .active {
+    background-color: #656e82; }
+
+.ligne {
+  display: flex;
+  flex-direction: row;
+  margin: 0; }
+
+.colH1 {
+  box-sizing: border-box;
+  flex-basis: 57.3333333333%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.colH4 {
+  box-sizing: border-box;
+  flex-basis: 40.6666666667%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.col-moitmoit {
+  box-sizing: border-box;
+  flex-basis: 40.6666666667%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.col-3 {
+  box-sizing: border-box;
+  flex-basis: 24%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.col-4 {
+  box-sizing: border-box;
+  flex-basis: 32.3333333333%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 2px 0 0 1%;
+  padding: 5px;
+  background-color: white; }
+
+.search-bar {
+  float: right; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+/*# sourceMappingURL=app.css.map */
